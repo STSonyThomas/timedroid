@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+button{
+  background-color: white;
+  color:black;
+  
+}
+.custom-datepicker .react-datepicker__day {
+  /* Customize day styles here */
+  border: none; /* Remove default border */
+  padding: 0.5rem 1rem; /* Adjust padding */
+  font-size: 0.875rem; /* Adjust font size */
+  cursor: pointer;
+  background-color: white;
+}
+
+.custom-datepicker .react-datepicker__day--selected {
+  /* Customize selected day styles here */
+  background-color: blue;
+
+}
