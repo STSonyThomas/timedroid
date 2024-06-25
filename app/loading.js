@@ -6,17 +6,17 @@ const Loading = () => {
     <div className={`${styles.loader} `}>
       
       <div className={`${styles.textWrapper}`}>
-        <span className={styles.letter}>H</span>
-        <span className={styles.letter}>u</span>
+        <span className={styles.letter}>t</span>
+        <span className={styles.letter}>i</span>
+        <span className={styles.letter}>m</span>
+        <span className={styles.letter}>e</span>
+        <span className={styles.letter}>d</span>
         <span className={styles.letter}>r</span>
-        <span className={styles.letter}>u</span>
-        <span className={styles.letter}>n</span>
-        <span className={styles.letter}> </span>
-        <span className={styles.letter}>I</span>
-        <span className={styles.letter}>n</span>
+        <span className={styles.letter}>o</span>
+        <span className={styles.letter}>i</span>
         <span className={styles.letter}>d</span>
         <span className={styles.letter}>i</span>
-        <span className={styles.letter}>a</span>
+        <span className={styles.letter}>o</span>
       </div>
       {/* <p className='text-black'>Your website is being put together for you ☺️</p> */}
     </div>
